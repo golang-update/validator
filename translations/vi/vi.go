@@ -2,15 +2,16 @@ package vi
 
 import (
 	"fmt"
+	ut "github.com/go-playground/universal-translator"
 	"log"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/Azaki-san/validator"
+
 	"github.com/go-playground/locales"
-	ut "github.com/go-playground/universal-translator"
-	"github.com/go-playground/validator/v10"
 )
 
 // RegisterDefaultTranslations registers a set of default translations
