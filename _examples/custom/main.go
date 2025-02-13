@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 // DbBackedUser User struct

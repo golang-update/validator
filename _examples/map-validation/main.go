@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 var validate *validator.Validate

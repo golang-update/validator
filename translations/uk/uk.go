@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 // RegisterDefaultTranslations registers a set of default translations

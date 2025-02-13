@@ -11,7 +11,7 @@ import (
 	"github.com/go-playground/locales"
 	ut "github.com/go-playground/universal-translator"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 // RegisterDefaultTranslations registers a set of default translations

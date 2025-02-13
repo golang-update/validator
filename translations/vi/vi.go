@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 
 	"github.com/go-playground/locales"
 )

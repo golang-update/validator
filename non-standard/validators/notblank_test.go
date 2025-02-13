@@ -3,8 +3,8 @@ package validators
 import (
 	"testing"
 
-	"github.com/Azaki-san/validator"
 	"github.com/go-playground/assert/v2"
+	"github.com/golang-update/validator"
 )
 
 type test struct {

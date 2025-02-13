@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 type defaultValidator struct {

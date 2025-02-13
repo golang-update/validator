@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 type validationError struct {

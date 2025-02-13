@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Azaki-san/validator"
-	en_translations "github.com/Azaki-san/validator/translations/en"
+	"github.com/golang-update/validator"
+	en_translations "github.com/golang-update/validator/translations/en"
 )
 
 // User contains user information

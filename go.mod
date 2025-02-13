@@ -1,4 +1,4 @@
-module github.com/Azaki-san/validator
+module github.com/golang-update/validator
 
 go 1.24
 

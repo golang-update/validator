@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azaki-san/validator"
+	"github.com/golang-update/validator"
 )
 
 // User contains user information

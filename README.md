@@ -5,7 +5,7 @@ Package validator
 [![Build Status](https://github.com/go-playground/validator/actions/workflows/workflow.yml/badge.svg)](https://github.com/go-playground/validator/actions)
 [![Coverage Status](https://coveralls.io/repos/go-playground/validator/badge.svg?branch=master&service=github)](https://coveralls.io/github/go-playground/validator?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-playground/validator)](https://goreportcard.com/report/github.com/go-playground/validator)
-[![GoDoc](https://godoc.org/github.com/go-playground/validator?status.svg)](https://pkg.go.dev/github.com/Azaki-san/validator)
+[![GoDoc](https://godoc.org/github.com/go-playground/validator?status.svg)](https://pkg.go.dev/github.com/golang-update/validator)
 ![License](https://img.shields.io/dub/l/vibe-d.svg)
 
 Package validator implements value validations for structs and individual fields based on tags.
@@ -32,11 +32,11 @@ Installation
 
 Use go get.
 
-	go get github.com/Azaki-san/validator
+	go get github.com/golang-update/validator
 
 Then import the validator package into your own code.
 
-	import "github.com/Azaki-san/validator"
+	import "github.com/golang-update/validator"
 
 Error Return Value
 -------
@@ -58,7 +58,7 @@ validationErrors := err.(validator.ValidationErrors)
 Usage and documentation
 ------
 
-Please see https://pkg.go.dev/github.com/Azaki-san/validator for detailed usage docs.
+Please see https://pkg.go.dev/github.com/golang-update/validator for detailed usage docs.
 
 ##### Examples:
 
@@ -277,7 +277,7 @@ go version go1.23.3 darwin/arm64
 goos: darwin
 goarch: arm64
 cpu: Apple M3 Max
-pkg: github.com/Azaki-san/validator
+pkg: github.com/golang-update/validator
 BenchmarkFieldSuccess-16                                                42461943                27.88 ns/op            0 B/op          0 allocs/op
 BenchmarkFieldSuccessParallel-16                                        486632887                2.289 ns/op           0 B/op          0 allocs/op
 BenchmarkFieldFailure-16                                                 9566167               121.3 ns/op           200 B/op          4 allocs/op
